@@ -16,3 +16,8 @@ int main() {
 
   return 0;
 }
+
+/*
+Solution Approach:
+In the above code, I first read the value of w, the weight of the watermelon, into a variable called w. Then I check if the weight is even and greater than 2. If it is, I print YES, otherwise I print NO.
+*/
