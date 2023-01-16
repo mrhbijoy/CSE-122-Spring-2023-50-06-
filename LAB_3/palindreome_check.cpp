@@ -20,8 +20,9 @@ int main(){
 
     reverse(s.begin(), s.end());
 
-    cout << s << endl;
-    
-    cout << isPalindrome(s) << endl;
-  
+    cout <<"The reverse string is :"<< s << endl;
+    if(isPalindrome(s)!=0){
+        cout << "The String is Palindrome" << endl;
+    }
+    else { cout << "The String is Not Palindrome" << endl; }
 }
