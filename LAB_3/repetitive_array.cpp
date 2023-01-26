@@ -22,3 +22,11 @@ int main()
         cout<<output[i]<<" ";
     }
 }
+/*
+Solution approach:
+1. Take input from user
+2. Store the input in an array
+3. Copy the array to the output array
+4. Print the output array
+
+*/
