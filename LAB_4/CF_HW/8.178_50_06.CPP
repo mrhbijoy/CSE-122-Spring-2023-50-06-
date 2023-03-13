@@ -7,7 +7,7 @@ int main(){
     string string1,string2;
     cin>>string1>>string2;
     //int l=string1.length();
-    transform(string1.begin(), string1.end(), string1.begin(), ::tolower);
+    transform(string1.begin(), string1.end(), string1.bevgin(), ::tolower);
     transform(string2.begin(), string2.end(), string2.begin(), ::tolower);
     if(string1>string2){
         cout<<"1"<<endl;
