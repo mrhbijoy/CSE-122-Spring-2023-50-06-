@@ -23,9 +23,11 @@ void solve()
 
   cin >> a>> b;
   while(a<=b){
+
       a = a * 3;
-      b = b * 2;
+      b = b * 2; 
       count++;
+
   }
   cout << count<<endl;
 }
